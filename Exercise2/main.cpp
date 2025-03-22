@@ -37,7 +37,7 @@ int main() //per prima cosa apriamo i file di input (in lettura) e output (in sc
         sum += newValue;
         counter++;
         
-        double mean = sum / counter;
+        double mean = sum / counter; //calcolo la media
         
         // stampo i risultati sui file di output con la precisione richiesta dal testo
         outputFile << counter << " " << std::scientific << std::setprecision(16) << mean << "\n";
